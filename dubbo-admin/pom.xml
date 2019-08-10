@@ -125,6 +125,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.26</version>
         </dependency>
         <dependency>
             <groupId>redis.clients</groupId>
@@ -146,6 +147,14 @@
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>3.1</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
